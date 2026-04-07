@@ -6,6 +6,9 @@ spring:
     username: root
     password: wsm666..
     driver-class-name: com.mysql.cj.jdbc.Driver
+  elasticsearch:
+    rest:
+      uris: http://192.168.88.128:9200
 logging:
   level:
     cn.itcast: debug
